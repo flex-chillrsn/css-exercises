@@ -14,7 +14,6 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 8px;
   flex-wrap: wrap;
 }
@@ -22,6 +21,8 @@ body {
 .header-sub-left, .header-sub-right {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
 }
 
 .header-sub-right {
@@ -68,6 +69,5 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  gap: 16px;
 }
