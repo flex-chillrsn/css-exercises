@@ -16,15 +16,18 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 8px;
+  flex-wrap: wrap;
 }
 
 .header-sub-left, .header-sub-right {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .header-sub-right {
   justify-content: space-between;
   gap: 8px;
+  padding-top: 8px;
 
 }
 
