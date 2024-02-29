@@ -7,6 +7,64 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.header {
+  border: 1px solid;
+  display: flex;
+
+}
+
+.left-links, .right-links {
+  display:flex;
+  border: 1px solid blue;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.left-links {
+  justify-content: flex-start;
+}
+
+.right-links {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+/*ul, li, a {*/
+  /*border: 1px solid red;*/
+/*}*/
+
+ul {
+  margin: 0;
+  padding: 10px;
+}
+
+li {
+  padding-left: 20px;
+}
+
+a {
+  color: grey;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content > * {
+  border: 1px solid red;
+}
+
+.img-container > * {
+  border: 1px solid orange;
+  display: flex;
+  justify-content: center;
+}
+
+
 img {
   width: 600px;
 }
