@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between
 }
 
 
@@ -14,17 +15,25 @@ body {
   font-weight: bold;
   font-size: 40px;
   padding: 10px;
+  flex: 1;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  flex: 1;
 }
 
 .content {
   border: 5px solid black;
   display: flex;
+  flex: 1;
 }
 
 .sidebar {
@@ -32,12 +41,17 @@ body {
   background: royalblue;
   box-sizing: border-box;
   margin-right: 30px;
-  /* flex: 1; */
+  padding: 20px;
+}
+
+.sidebar > * {
+  border: 1px solid red;
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
+  padding: 10px;
 }
 
 .card {
@@ -52,5 +66,15 @@ a {
   color: white;
   text-decoration: none;
   font-weight: 500;
+}
+
+ul {
+ list-style-type: none ;
+ margin: 0;
+ padding: 0;
+}
+
+ul > * {
+  border: 1px solid red;
 }
 
